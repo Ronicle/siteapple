@@ -1,0 +1,68 @@
+    @media only screen and (max-whidth: 800px){
+        #cabecalho .container{
+            display: block;
+            padding-top: 15px 0;
+            position: relative;
+        }
+
+        #cabecalho #logo{
+            display: block;
+            margin: 0 auto;
+        }
+
+        #cabecalho #but-menu{
+            display: block;
+            position: absolute;
+            right: 15px;
+            top: 10px;
+        }
+
+        #cabecalho #menu{
+            display: none;
+        }
+
+        #cabecalho #menu ul li{
+            display: block;
+
+        }
+
+        #cabecalho #menu ul li a{
+            text-align: center;
+            border-bottom: 1px solid #666;
+        }
+
+        #cabecalho #menu ul li:first-child a{
+            border-top: 1px solid #666;
+
+        }
+
+        #modelos .container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media only screen and (max-whidth: 360px){
+        .titulo-secao{
+            font-size: 200%;
+        }
+        
+        #modelos .container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        #modelos  img{
+            margin: 0 auto;
+            margin-bottom: 30px;
+            max-width: 50%;
+            display: block;
+        }
+
+        #modelos h3{
+            text-align: center;
+        }
+
+        #modelos .but-comprar{
+            margin: 0 auto;
+        }
+
+    }
